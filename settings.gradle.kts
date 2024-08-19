@@ -1,1 +1,1 @@
-rootProject.name="Ceramic"
+rootProject.name="OstrichPlayer"

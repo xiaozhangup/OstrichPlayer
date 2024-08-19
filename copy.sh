@@ -1,1 +1,1 @@
-cp "C:/Users/xiaoz/IdeaProjects/Ceramic/build/libs/Ceramic-1.0.0.jar" C:/Users/xiaoz/Desktop/服务端测试/plugins
+cp "C:/Users/xiaoz/IdeaProjects/OstrichPlayer/build/libs/OstrichPlayer-1.0.0.jar" C:/Users/xiaoz/Desktop/服务端测试/plugins

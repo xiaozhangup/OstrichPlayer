@@ -13,6 +13,7 @@ taboolib {
         install(
             CHAT,
             UI,
+            EXPANSION_SUBMIT_CHAIN,
             CONFIGURATION,
             EXPANSION_COMMAND_HELPER
         )
@@ -28,10 +29,12 @@ repositories {
     mavenCentral()
     mavenLocal()
     maven("https://papermc.io/repo/repository/maven-public/")
+    maven("https://maven.nostal.ink/repository/maven-public/")
     maven("https://jitpack.io")
 }
 
 dependencies {
+    compileOnly("ink.pmc.advkt:core:1.0.1")
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
     compileOnly("ink.ptms.core:v12004:12004-minimize:mapped")
     compileOnly("ink.ptms.core:v12004:12004-minimize:universal")
