@@ -18,9 +18,10 @@ taboolib {
             EXPANSION_COMMAND_HELPER
         )
 
-        repoTabooLib = project.repositories.mavenLocal().url.toString()
+//        repoTabooLib = project.repositories.mavenLocal().url.toString()
         version {
-            taboolib = "6.1.0-local-dev"
+//            taboolib = "6.1.0-local-dev"
+            taboolib = "6.1.1-beta17"
         }
     }
 }
